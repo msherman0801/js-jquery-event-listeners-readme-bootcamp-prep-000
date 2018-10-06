@@ -20,7 +20,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input:first').on('keypress', function(e) {
+  $('input:first').bind('keypress', function(e) {
     if(e.which == 71) {
       alert("You have pressed the G key")
     }
