@@ -20,5 +20,7 @@ function frameIt() {
 }
 
 function submitIt() {
-  $('')
+  $('input:first').on('keypress', functione) {
+    if(e.which == )
+  })
 }
