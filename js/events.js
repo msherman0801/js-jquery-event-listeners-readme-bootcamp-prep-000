@@ -26,3 +26,9 @@ function pressIt() {
     }
   })
 }
+
+function submitIt() {
+  $('form').bind('submit', function() {
+    alert("Your form is going to be submitted now.")
+  })
+}
