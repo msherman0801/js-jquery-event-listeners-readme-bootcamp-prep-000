@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 getIt();
 frameIt();
-
+submitIt();
 });
 
 function getIt() {
@@ -20,7 +20,9 @@ function frameIt() {
 }
 
 function submitIt() {
-  $('input:first').on('keypress', functione) {
-    if(e.which == )
+  $('input:first').on('keypress', function(e) {
+    if(e.which == 71) {
+      alert("You have pressed the G key")
+    }
   })
 }
