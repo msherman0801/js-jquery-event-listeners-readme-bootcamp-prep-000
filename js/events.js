@@ -7,7 +7,7 @@ getIt();
 });
 
 function getIt() {
-  $('p').on('keypress', function() {
+  $('p').on('click', function() {
     alert('Hey!')
   })
 }
